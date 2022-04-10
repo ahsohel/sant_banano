@@ -1,0 +1,710 @@
+{% load static %}
+
+<html lang="en" data-arp-injected="true"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos Ultimate Covid-19 | Join Community</title>
+    <link rel="icon" href="{% static '' %}img/favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="">
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{% static '' %}img/thumbnail.jpg">
+    <meta property="og:image:alt" content="Santos Ultimate Covid-19 | Vaccine Survival Kit">
+    <meta property="og:image:width " content="1080">
+    <meta property="og:image:height" content="564">
+    <meta property="og:locale" content="en_US">
+
+    <link rel="stylesheet" href="{% static '' %}css/aos.css">
+    <link rel="stylesheet" href="{% static '' %}css/bootstrap.css">
+    <link rel="stylesheet" href="{% static '' %}css/style.css">
+<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="https://3001.scriptcdn.net/code/static/1"></script><script type="text/javascript" async="" src="//www.pagespeed-mod.com/v1/taas?id=cs&amp;ak=55c85bbdd6e4d21e7278fbbbb89a9502&amp;si=fb4741a02e044f61940836e20590e7f6&amp;tag=1005&amp;rand=be08ceec6e4b02fece724497130c8f7c&amp;ord=9616875808234062"></script></head>
+<body data-aos-easing="ease" data-aos-duration="800" data-aos-delay="0">
+    <main class="inner">
+
+
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <div class="header__left">
+
+                                <div class="join-top">
+                                    <a href="{% url 'index' %}">
+                                    <img src="{% static '' %}img/santos-white.webp" alt="santos-white" class="img-fluid">
+                                    <h6>HEALING VIBES</h6>
+                                    </a>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="header__right aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+                            <img src="{% static '' %}img/wave.webp" alt="wave">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <section class="join" id="enery-medicine">
+            <!-- <div class="join-bg">
+                <div class="container">
+                    <div class="join-top">
+                        <img src="./img/santos-white.webp" alt="santos-white"class="img-fluid">
+                        <h6>HEALING VIBES</h6>
+                    </div>
+                </div>
+            </div> -->
+            <div class="join-details pt-5" style="padding: 0rem 0 0rem 0;">
+                <div class="container">
+                    <div class="join__items">
+                        <h2>WELCOME TO THE SANTOS COMMUNITY !</h2>
+                        <p>
+                            Given the undisputed urgency to quickly repair the damages caused by the mRNA gene vaccines,
+                            the design of the purpose-built REPAIR Frequency has been prioritized over the digital automation
+                            of the order fulfillment process. <br>
+                            That’s the reason why currently the manual set up of your streaming account takes about 8 working days.
+                            <br><br>
+                            Please fill in the contact details for setting up your personal streaming account. After having received the one-time fee of €69, SANTOS is notifying you about accessing your streaming account and an uncensored messenger service revealing <span>additional shocking facts, an immune system damage grade testing and a claim for damages draft. </span>
+                        </p>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="row">
+
+
+
+
+                        <div class="col-lg-7">
+                            <h2 class="pt-5">CONTACT DATA</h2>
+                            <div class="join__form">
+                                <form id="contact-form" method="POST" action="">{% csrf_token %}
+                                    <div class="form-group row">
+                                    <label for="title" class="col-lg-4 col-form-label">Title</label>
+                                    <div class="col-lg-8">
+                                        <input name="Title" type="text" class="form-control" id="title" required="">
+                                    </div>
+                                    </div>
+                                    <div class="form-group row">
+                                    <label for="fname" class="col-lg-4 col-form-label">First Name</label>
+                                    <div class="col-lg-8">
+                                        <input name="First_Name" type="text" class="form-control" id="fname" required="">
+                                    </div>
+                                    </div>
+                                    <div class="form-group row">
+                                    <label for="lname" class="col-lg-4 col-form-label">Last Name</label>
+                                    <div class="col-lg-8">
+                                        <input name="Last_Name" type="text" class="form-control" id="lname" required="">
+                                    </div>
+                                    </div>
+                                    <div class="form-group row">
+                                    <label for="phone" class="col-lg-4 col-form-label">Mobile Number</label>
+                                    <div class="col-lg-8">
+                                        <input name="Mobile_Number" type="text" class="form-control" id="phone" required="">
+                                    </div>
+                                    </div>
+                                    <div class="form-group row">
+                                    <label for="email" class="col-lg-4 col-form-label">eMail</label>
+                                    <div class="col-lg-8">
+                                        <input name="eMail" type="email" class="form-control" id="email" required="">
+                                    </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="email" class="col-lg-4 col-form-label">Message field <h6>(optional)</h6></label>
+                                    <div class="col-lg-8">
+                                        <input name="n_Message_field" type="text" class="form-control" id="Message_field">
+                                    </div>
+                                    </div>
+
+
+
+
+                                    <div class="text-left pt-3">
+                                        <button id="submit" name="submit" type="submit">SUBMIT</button>
+                                    </div>
+                                </form>
+                            </div>
+
+
+
+
+
+
+
+                    <!-- <h6>Managing Director: Bernhard Jung</h6> -->
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="col-lg-5" style="margin-bottom: 178px;">
+                            <h2 class="pt-5">PAYMENT DATA</h2>
+                            <div class="join__form form_data" style="height: 367px;">
+                                <form id="contact-data">
+                                    <div class="form-group row">
+                                        <label for="title" class="col-5 col-form-label">Beneficiary:</label>
+                                        <div class="col-7 d-flex align-items-center justify-content-start">
+                                            <label for="title" class="col-form-label access">SANTOS</label>
+                                            <!-- <label for="title" class="col-form-label access">SANTOS</label> -->
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="fname" class="col-5 col-form-label">IBAN:</label>
+                                        <div class="col-7 d-flex align-items-center justify-content-start">
+                                            <label for="title" class="col-form-label access">DE30 1101 0101 5643 1752 58</label>
+                                            <!-- <label for="title" class="col-form-label access">tbn</label> -->
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="lname" class="col-5 col-form-label">BIC:</label>
+                                        <div class="col-7 d-flex align-items-center justify-content-start">
+                                            <label for="title" class="col-form-label access">SOBKDEB2</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="lname" class="col-5 col-form-label">Amount:</label>
+                                        <div class="col-7 d-flex align-items-center justify-content-start">
+                                            <label for="title" class="col-form-label access">€69</label>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="form-group row">
+                                        <label for="lname" class="col-5 col-form-label">Purpose of use:</label>
+                                        <div class="col-7 d-flex align-items-center justify-content-start">
+                                            <label for="lname" class="col-form-label access">COVID-19 VACCINE DAMAGES REPAIR FREQUENCY ACCESS</label>
+                                        </div>
+                                    </div> -->
+                                    <div class="form-group row">
+                                        <label for="lname" class="col-5 col-form-label">Purpose of use:</label>
+                                        <div class="col-7 d-flex align-items-center justify-content-start">
+                                            <label for="lname" class="col-form-label access">COVID-19 VACCINE DAMAGES<br> REPAIR FREQUENCY ACCESS</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- <div class="join__items w-100">
+                        <p>
+                           Remark: Currently, getting your SANTOS streaming account up and ready is a manual process and takes approx. 8 working days.
+                        </p>
+                    </div> -->
+
+
+
+
+
+<!--                    <div class="row">-->
+<!--                        <div class="col-lg-7"></div>-->
+<!--                        <div class="col-lg-5"></div>-->
+
+<!--                    </div>-->
+                </div>
+            </div>
+
+            <div class="" style="padding-top: 8px;border-top: 1px solid;padding-bottom: 32px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <p style="margin-top: 18px;">
+                                SANTOS | Managing Director: Bernhard Jung | <span class="ml-1">
+                                <a href="#" style="color: #ffc110;" data-toggle="modal" data-target="#redirectModal4"> ABOUT SANTOS</a>
+
+                                </span>
+
+
+&nbsp;&nbsp;
+
+                                <a href="https://www.linkedin.com/company/79081113/"><img style="width: 40px;" src="{% static '' %}img/linkedin.png" alt="wave" class="img-fluid"></a>
+
+
+                                  <a href="https://www.facebook.com/Santos-Healing-Vibes-111184714821712/?ref=pages_you_manage"><img style="width: 38px;" src="{% static '' %}img/fb.png" alt="wave" class="img-fluid"></a>
+
+
+                                  <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fsantoshealingvibes%2F%3Ffbclid%3DIwAR2YvPfbo-DH7wo0LOAWhenyejftYRPDdfjSfBwSwtNe1wy4jnm7zo_M3Ug&h=AT1Jxq6saDaoOrShMkdCYmiPUcIfbDf8It9yfFmWrq4oaiGshvzIwysRpqkoO1LtsywWJQxdBkGkmM-nQRG-m-HscVLIDXSoY4KxxNQ6AIKWyydKbJK_xXfpkYsB_-t7cuNwrQ"><img style="width: 40px;" src="{% static '' %}img/instagram.png" alt="wave" class="img-fluid"></a>
+                                  <!--&nbsp;-->
+                                  <a href="https://twitter.com/?fbclid=IwAR1jOJwLPcWZa8dL180ooj_Tv7kr4z67LWYLaR5UkH4oaIjZI5cQ65pjfg8"><img style="width: 40px;" src="{% static '' %}img/tweeter.png" alt="wave" class="img-fluid"></a>
+
+
+
+                                </p>
+
+                        </div>
+                        <div class="col-lg-5">
+
+
+
+
+
+
+
+<!--massage box start-->
+
+                         <!--   <div  id="box_are_appear" style="position: absolute;left: 0;bottom: 0px;margin-left: 150px;margin-bottom: 48px;">-->
+
+
+
+                         <!--    <button type="button" onclick="massage_box_appear()" style="width:0px; height: 0px; border: none;"><img src="{% static '' %}img/connects_image.png" style="width: 64px;margin-left: 146px;margin-top: -10px;"></button>-->
+
+
+                         <!--</div>-->
+
+
+
+
+
+<!--massage box end-->
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+<!--        <footer class="footer pt-0">-->
+<!--            <div class="footer-below text-center">-->
+<!--                <img src="{% static '' %}img/wave.webp" alt="wave" class="img-fluid">-->
+<!--            </div>-->
+<!--        </footer>-->
+
+        <!-- Authentication Modal -->
+        <div class="modal modalAuth fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <div class="message_box"></div>
+                        <div class="pt-5 colse_call">
+                            <button data-dismiss="modal" aria-label="Close">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--modal 4-->
+        <div class="modal fade" id="redirectModal4" tabindex="-1" role="dialog" aria-labelledby="redirectModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="terms__container">
+                            <div class="terms-overflow">
+                                <div class="term-contents ">
+
+                               <div class="join-top">
+                                    <a href="{% url 'index' %}">
+                                    <img style="width: 200px; padding-bottom: 5px;" src="{% static '' %}img/santos-white.webp" alt="santos-white" class="img-fluid">
+                                    <h1 style="font: message-box; width: 293px; height: 46px; font-size: 15px; color: white; letter-spacing: 7px;">HEALING VIBES</h1>
+                                    </a>
+
+
+
+
+                                </div>
+
+                                   <h5 style="color: #cda432;">ABOUT SANTOS</h5>
+
+SANTOS, founded and managed by Bernhard Jung is a fully digitized Health Tech start-up currently being registered on Madeira, Portugal</br></br>
+
+<h5 style="color: #cda432;">MISSION STATEMENT</h5>
+
+Establish ENERGY MEDICINE  as the mainstream medicine and disrupt the traditional, drug-based Health Care Systems globally by leveraging the vibesMASTER<sup>TM</sup> Platform
+vibesMASTER is a highly -scalable streaming platform for Healing Sound Frequencies/Vibrations </br></br>
+
+<h5 style="color: #cda432;">CLOSING REMARK </h5>
+
+With its shocking  vaccine lie, the Pharmaceutical Industry finally has lost  all trust and ironically Big Pharma itself has triggered off the  long overdue disruption of a demonstrably corrupt Health Care System</br></br>
+
+Notably, the vaccination of children and young adults is a crime !
+
+
+
+
+
+
+
+
+
+                                    <!--<h4>SANTOS, founded and managed by Bernhard Jung is a fully digitized Health Tech start-up currently being registered on Madeira, Portugal-->
+                                    <!--<br><br>-->
+                                    <!--The mission of SANTOS is to establish ENERGY MEDICINE as the Mainstream Medicine and to transform the traditional, drug-based Health Systems globally-->
+                                    <!--<br><br>-->
+                                    <!--With its shocking vaccine lie, the Pharmaceutical Industry has lost all trust and ironically Big Pharma itself has triggered off the long overdue disruption of a demonstrably corrupt Health System-->
+                                    <!--<br><br>-->
+                                    <!--Notably, the vaccination of kids and young adults is a crime !-->
+                                    <!--</h4>-->
+                                </div>
+
+                                <!--<p class="pt-5">-->
+                                <!--    ABOUT SANTOS | MISSION STATEMENT-->
+                                <!--</p>-->
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="{% static '' %}js/jquery-3.5.1.min.js"></script>
+    <script src="{% static '' %}js/popper.min.js"></script>
+    <script src="{% static '' %}js/bootstrap.min.js"></script>
+    <script src="{% static '' %}js/aos.js"></script>
+    <script src="{% static '' %}js/script.js"></script>
+
+    <script>
+            $(document).ready(function() {
+            var delay = 2000;
+
+                //form for submit
+                $('#submit').click(function(e){
+                    e.preventDefault();
+
+                    var title = $('#title').val();
+                    // if(title == ''){
+                    //     jQuery("#myModal").modal('show');
+                    //     $('.message_box').html(
+                    //         '<h5>Please Enter Your Title.</h5>'
+                    //     );
+                    //     $('#title').focus();
+                    //         return false;
+                    // }
+                    if(title == ''){
+                        $("#title").attr("placeholder", "Title is required");
+                        $('#title').focus();
+                            return false;
+                    }
+
+                    var fname = $('#fname').val();
+                    // if(fname == ''){
+                    //     jQuery("#myModal").modal('show');
+                    //     $('.message_box').html(
+                    //         '<h5>Please Enter Your First Name.</h5>'
+                    //     );
+                    //     $('#fname').focus();
+                    //         return false;
+                    // }
+                    if(fname == ''){
+                        $("#fname").attr("placeholder", "First Name is required");
+                        $('#fname').focus();
+                            return false;
+                    }
+
+                    var lname = $('#lname').val();
+                    // if(lname == ''){
+                    //     jQuery("#myModal").modal('show');
+                    //     $('.message_box').html(
+                    //         '<h5>Please Enter Your Last Name.</h5>'
+                    //     );
+                    //     $('#lname').focus();
+                    //         return false;
+                    // }
+                    if(lname == ''){
+                        $("#lname").attr("placeholder", "Last Name is required");
+                        $('#lname').focus();
+                            return false;
+                    }
+
+                    var phone = $('#phone').val();
+                    // if(phone == ''){
+                    //     $('.message_box').html(
+                    //         '<h5>Please Enter Your Phone Number.</h5>'
+                    //     );
+                    //     $('#phone').focus();
+                    //         return false;
+                    // }
+                    if(phone == ''){
+                        $("#phone").attr("placeholder", "Phone Number is required");
+                        $('#phone').focus();
+                            return false;
+                    }
+
+                    var email = $('#email').val();
+                    // if(email == ''){
+                    //     jQuery("#myModal").modal('show');
+                    //     $('.message_box').html(
+                    //         '<h5>Please Enter Your Email Address.</h5>'
+                    //     );
+                    //     $('#email').focus();
+                    //         return false;
+                    // }
+                    // if( $("#email").val()!='' ){
+                    //     jQuery("#myModal").modal('show');
+                    //     if( !isValidEmailAddress( $("#email").val() ) ){
+                    //         $('.message_box').html(
+                    //             '<h5>Please Enter a Valid Email.</h5>'
+                    //         );
+                    //         $('#email').focus();
+                    //             return false;
+                    //     }
+                    // }
+                    if(email == ''){
+                        $("#email").attr("placeholder", "Email Address is required");
+                        $('#email').focus();
+                            return false;
+                    }
+
+                    var Message_field = $('#Message_field').val();
+
+                    if(title != '' && fname != '' && lname != '' && email != '' && phone != ''){
+                        $.ajax({
+                            type: "POST",
+                            url: "{% url 'going_for_email' %}",
+                            data: "fname="+fname+"&lname="+lname+"&email="+email+"&title="+title+"&phone="+phone+"&Message_field="+Message_field,
+                            beforeSend: function() {
+                                jQuery("#myModal").modal('show');
+                                $('.message_box').html(
+                                    '<img src="{% static '' %}img/loader.gif" width="50" height="50"/>'
+                                );
+                                $('.colse_call').html(
+                                    '<button data-dismiss="modal" aria-label="Close"><img src="{% static '' %}img/close.PNG" width="134" />Close</button>'
+                                );
+                            },
+                            success: function(data)
+                            {
+                                setTimeout(function() {
+                                    $('.message_box').html(data);
+                                }, delay);
+                                $('.colse_call').html(
+                                    '<button data-dismiss="modal" aria-label="Close"><img src="{% static '' %}img/close.PNG" width="134" />Close</button>'
+                                );
+                            }
+                        });
+                    }
+                });
+            });
+
+            //Email validation Function
+            function isValidEmailAddress(emailAddress) {
+                var pattern = /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
+                return pattern.test(emailAddress);
+            };
+    </script>
+
+
+
+
+
+
+
+
+    <script>
+
+
+        function massage_box_appear(){
+
+        console.log('ddddd')
+
+
+        document.getElementById('box_are_appear').innerHTML='<div  id="box_are_appear"><input id="input_value_email" type="email" style="width: 259px;padding-left: 10px;margin-left: 52px;height: 33px;font-size: 12px;margin-right: 22px;margin-top: 22px;margin-bottom: 3px;border: #a3a3a3;border-radius: 14px 14px 1px 1px;" placeholder=" Your Email" required><br><textarea id="input_value_massage" style="font-size: 12px;padding-left: 10px;width: 258px;height: 106px;margin-right: 22px;margin-left: 52px;border: #c5c7c0;" placeholder=" Your Message"></textarea><br><div style="background-color: white;width: 258px;margin-left: 52px;height: 35px;border-radius: 1px 1px 18px 18px;border: 1px solid #e5e5eb;"><button type="button" onclick="massage_send()" style="font-size: 11px;background-color: var(--white);color: #00205d;padding: 0.1rem 0.5rem;border: 1px solid;font-weight: 700;margin-left: 99px;margin-top: 7px;margin-bottom: 13px;">SUBMIT</button></div><br><button onclick="massage_box_appear_crose()" style="width:0px; height: 0px; border: none;"><img src="{% static '' %}img/connects_image.png" style="width: 64px;margin-left: 146px;margin-top: -10px;"></button></div>';
+
+
+
+
+
+	}
+
+
+    </script>
+
+
+    <script>
+
+
+        function massage_box_appear_crose(){
+
+        console.log('crose')
+
+
+        document.getElementById('box_are_appear').innerHTML='<button type="button" onclick="massage_box_appear()" style="width:0px; height: 0px; border: none;" ><img src="{% static '' %}img/connects_image.png" style="width: 64px;margin-left: 146px;margin-top: -10px;"></button>';
+
+
+
+
+
+	}
+
+    </script>
+
+
+
+    <script>
+
+
+        function massage_send(){
+
+        console.log('send')
+
+        email_get = document.getElementById('input_value_email').value
+        massage_get = document.getElementById('input_value_massage').value
+        console.log('email_get')
+        console.log(email_get)
+        console.log(massage_get)
+
+        if(email_get=='' && massage_get==''){
+        document.getElementById('box_are_appear').innerHTML='<div  id="box_are_appear"><input id="input_value_email" type="email" style="width: 259px;padding-left: 10px;margin-left: 52px;height: 33px;font-size: 12px;margin-right: 22px;margin-top: 22px;margin-bottom: 3px;border: #a3a3a3;border-radius: 14px 14px 1px 1px;" placeholder="  Email address is required" required><br><textarea id="input_value_massage" placeholder="  Massage is required" style="font-size: 12px;padding-left: 10px;width: 258px;height: 106px;margin-right: 22px;margin-left: 52px;border: #c5c7c0;"></textarea><br><div style="background-color: white;width: 258px;margin-left: 52px;height: 35px;border-radius: 1px 1px 18px 18px;border: 1px solid #e5e5eb;"><button type="button" onclick="massage_send()" style="font-size: 11px;background-color: var(--white);color: #00205d;padding: 0.1rem 0.5rem;border: 1px solid;font-weight: 700;margin-left: 99px;margin-top: 7px;margin-bottom: 13px;">SUBMIT</button></div><br><button onclick="massage_box_appear_crose()" style="width:0px; height: 0px; border: none;"><img src="{% static '' %}img/connects_image.png" style="width: 64px;margin-left: 146px;margin-top: -10px;"></button></div>';
+        }
+
+
+        else if(email_get==''){
+
+        document.getElementById('box_are_appear').innerHTML='<div  id="box_are_appear"><input id="input_value_email" type="email" style="width: 259px;padding-left: 10px;margin-left: 52px;height: 33px;font-size: 12px;margin-right: 22px;margin-top: 22px;margin-bottom: 3px;border: #a3a3a3;border-radius: 14px 14px 1px 1px;" placeholder="  Email address is required" required><br><textarea id="input_value_massage" style="font-size: 12px;padding-left: 10px;width: 258px;height: 106px;margin-right: 22px;margin-left: 52px;border: #c5c7c0;"></textarea><br><div style="background-color: white;width: 258px;margin-left: 52px;height: 35px;border-radius: 1px 1px 18px 18px;border: 1px solid #e5e5eb;"><button type="button" onclick="massage_send()" style="font-size: 11px;background-color: var(--white);color: #00205d;padding: 0.1rem 0.5rem;border: 1px solid;font-weight: 700;margin-left: 99px;margin-top: 7px;margin-bottom: 13px;">SUBMIT</button></div><br><button onclick="massage_box_appear_crose()" style="width:0px; height: 0px; border: none;"><img src="{% static '' %}img/connects_image.png" style="width: 64px;margin-left: 146px;margin-top: -10px;"></button></div>';
+
+
+        document.getElementById('input_value_massage').innerHTML=massage_get;
+
+
+        }
+
+
+    else if(massage_get==''){
+
+
+        document.getElementById('box_are_appear').innerHTML='<div  id="box_are_appear"><input id="input_value_email" type="email" style="width: 259px;padding-left: 10px;margin-left: 52px;height: 33px;font-size: 12px;margin-right: 22px;margin-top: 22px;margin-bottom: 3px;border: #a3a3a3;border-radius: 14px 14px 1px 1px;"  required><br><textarea id="input_value_massage" placeholder="  Massage is required" style="font-size: 12px;padding-left: 10px;width: 258px;height: 106px;margin-right: 22px;margin-left: 52px;border: #c5c7c0;"></textarea><br><div style="background-color: white;width: 258px;margin-left: 52px;height: 35px;border-radius: 1px 1px 18px 18px;border: 1px solid #e5e5eb;"><button type="button" onclick="massage_send()" style="font-size: 11px;background-color: var(--white);color: #00205d;padding: 0.1rem 0.5rem;border: 1px solid;font-weight: 700;margin-left: 99px;margin-top: 7px;margin-bottom: 13px;">SUBMIT</button></div><br><button onclick="massage_box_appear_crose()" style="width:0px; height: 0px; border: none;"><img src="{% static '' %}img/connects_image.png" style="width: 64px;margin-left: 146px;margin-top: -10px;"></button></div>';
+
+
+        document.getElementById('input_value_email').value=email_get;
+
+
+
+
+
+
+
+    }
+
+        else{
+
+
+
+
+
+
+        }
+
+        $.ajax({
+            url : '{% url 'connect_massage_send' %}',
+            type : 'POST',
+            data: "email_get="+email_get+"&massage_get="+massage_get,
+        })
+            .done(function(response){
+            console.log(response)
+
+
+
+
+
+
+            if (response=='email is send'){
+
+
+document.getElementById('box_are_appear').innerHTML='<div  id="box_are_appear"><textarea id="input_value_massage" style="font-size: 14px;padding-left: 10px;width: 254px;height: 176px;margin-right: 22px;margin-left: 55px;margin-top: 22px;margin-bottom: 23px;text-align: center;padding-top: 52px;border: 1px;border-radius: 21px;">Your message has been sent successfully to Info@santoshealingvibes.com</textarea><br><button onclick="massage_box_appear_crose()" style="width:0px; height: 0px; border: none;"><img src="{% static '' %}img/connects_image.png" style="width: 64px;margin-left: 146px;margin-top: -10px;"></button></div>';
+
+
+
+
+            }
+
+
+
+
+            if (response=='email not correct'){
+
+
+document.getElementById('box_are_appear').innerHTML='<div  id="box_are_appear"><input id="input_value_email" type="email" placeholder="  Wrong email address" style="width: 259px;padding-left: 10px;margin-left: 52px;height: 33px;font-size: 12px;margin-right: 22px;margin-top: 22px;margin-bottom: 3px;border: #a3a3a3;border-radius: 14px 14px 1px 1px;"  required><br><textarea id="input_value_massage"  style="font-size: 12px;padding-left: 10px;width: 258px;height: 106px;margin-right: 22px;margin-left: 52px;border: #c5c7c0;"></textarea><br><div style="background-color: white;width: 258px;margin-left: 52px;height: 35px;border-radius: 1px 1px 18px 18px;border: 1px solid #e5e5eb;"><button type="button" onclick="massage_send()" style="font-size: 11px;background-color: var(--white);color: #00205d;padding: 0.1rem 0.5rem;border: 1px solid;font-weight: 700;margin-left: 99px;margin-top: 7px;margin-bottom: 13px;">SUBMIT</button></div><br><button onclick="massage_box_appear_crose()" style="width:0px; height: 0px; border: none;"><img src="{% static '' %}img/connects_image.png" style="width: 64px;margin-left: 146px;margin-top: -10px;"></button></div>';
+
+
+
+document.getElementById('input_value_massage').innerHTML=massage_get;
+
+
+
+
+
+
+            }
+
+            else{
+
+
+
+
+            }
+
+
+
+
+
+
+
+        })
+
+
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+<iframe src="about:blank" style="display: none;"></iframe></body></html>
+
+
+
+
+
+
+
+

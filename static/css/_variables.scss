@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'Myridpro-reg';
+    src: url('../fonts/myridreg.OTF');
+}
+
+:root {
+    --white: #FFFFFF;
+    --purple: #13112B;
+    --blue: #092060;
+    --skyblue: #3FECFF;
+    --lagoon : #C9C9C9;
+    --orange: #FFA14D;
+    --yellow: #F7FF15;
+    --black: #000000;
+
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Myridpro-reg', sans-serif;
+}
+
+$white: var(--white);
+$purple: var(--purple);
+$blue: var(--blue);
+$skyblue: var(--skyblue);
+$lagoon: var(--lagoon);
+$orange: var(--orange);
+$yellow: var(--yellow);
+$black: var(--black);
+
+
+$font1: var(--font1);
+$font2: var(--font2);
+$font3: var(--font3);
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
